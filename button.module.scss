@@ -1,0 +1,11 @@
+@import "/styles/mixins/cores.scss";
+
+.button {
+    padding: 15px 50px;
+    border-radius: 10px;
+    font-size: 16px;  
+    color: white;  
+    font-weight: bold;
+    background-color: $azul;
+    margin-left: 30%;
+}

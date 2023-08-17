@@ -1,0 +1,33 @@
+@import "/styles/mixins/cores.scss";
+
+.container{
+    padding-top: 34px;
+    padding-bottom: 34px;
+    padding-left: 0px;
+    width: 100%;
+    display: flex;
+}
+
+.text{
+    h1{
+        font-size: 60;
+        color: $azul; 
+        align-content: center;
+        top:100%
+    }
+}
+
+.button{
+    padding: 15px 50px;
+    border-radius: 10px;
+    font-size: 16px;
+    color: white;    
+    font-weight: bold;
+    background-color: $azul;
+    padding: auto;
+
+}
+
+.Triangulo{
+    margin-bottom: 200%;
+}
