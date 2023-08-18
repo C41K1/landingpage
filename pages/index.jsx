@@ -4,8 +4,8 @@ import Header from "../components/header"
 import Banner from "../components/banner"
 import Corpo from "../components/corpo"
 import { Inter } from 'next/font/google'
-import Formulario from '../components/formulario'
 import Rodape from '../components/rodape'
+import Contato from '../components/contato'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -21,7 +21,7 @@ export default function Home() {
       <div style={{position:"fixed", zIndex:1,width:"100%"}}><Header/></div>
       <Banner/>
       <Corpo/>
-      <Formulario/>
+      <Contato/>
       <Rodape/>
     </>
   )

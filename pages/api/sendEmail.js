@@ -2,17 +2,17 @@ import { SMTPClient } from 'emailjs';
 
 export default async function handler(req, res) {
 
-    console.log("teste",process.env.EMAIL)
+    console.log("teste123",process.env.EMAIL)
     const client = new SMTPClient({
         user: process.env.EMAIL,
-        password: process.ENV.PASSWORD,
+        password: process.env.PASSWORD,
         host: 'smtp.gmail.com',
         ssl: true,
     });
     
     try {
         const message = await client.sendAsync({
-            text: "teste",
+            text: "teste123",
             from: 'testeapiemail2000@gmail.com',
             to: 'testeapiemail2000@gmail.com',
             subject: 'testing emailjs',

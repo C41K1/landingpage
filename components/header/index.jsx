@@ -15,7 +15,7 @@ const Header = () => {
             <Link href="">CASES</Link>
         </div>
         <div className={Styles.botao}>
-            <Link href="/#formulario"><button><label>ENTRE EM CONTATO</label></button></Link>
+            <Link href="/#contato"><button><label>ENTRE EM CONTATO</label></button></Link>
         </div>
     </div>
 };
