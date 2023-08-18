@@ -1,6 +1,7 @@
 import axios from "axios";
 import Styles from "./contato.module.scss";
 
+
 const Contato = () =>{
 
     const SendEmail = () => {
